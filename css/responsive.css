@@ -1,0 +1,59 @@
+
+
+@media screen and (max-width: 1200px){
+     html{
+          font-size: 55.5%;
+     }
+}
+
+
+@media screen and (max-width: 992px){
+     html{
+          font-size: 52.5%;
+     }
+     
+     /* 00 banner start */
+     .home-banner{
+          flex-direction: column-reverse;
+          gap: 3rem;
+     }
+     .banner-img{
+          width: 80%;
+     }
+     .banner-description{
+          width: 100%;
+          text-align: center;
+     }
+     .banner-description .banner-dtail{
+          margin: 0 auto;
+     }
+}
+
+
+@media screen and (max-width: 768px){
+     html{
+          font-size: 50%;
+     }
+     /* navber */
+     ul{
+          display: none;
+     }
+     /* 00 banner start */
+     .banner-img{
+          width: 70%;
+     }
+
+}
+
+@media screen and (max-width: 576px){
+     html{
+          font-size: 45%;
+     }
+ 
+}
+@media screen and (max-width: 350px){
+     html{
+          font-size: 35%;
+     }
+ 
+}
