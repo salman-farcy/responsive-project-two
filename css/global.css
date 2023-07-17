@@ -47,9 +47,8 @@ img{
      color: var(--primary);
      font-family: Poppins;
      font-size: 2rem;
-     font-style: normal;
      font-weight: 600;
-     line-height: 70px; 
+      
 }
 .primary-btn{
      display: inline-block;

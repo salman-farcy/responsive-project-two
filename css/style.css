@@ -54,7 +54,7 @@ li a:hover{
 .banner-description .banner-dtail{
      color: var(--primary);
      font-family: Poppins;
-     font-size: 1rem;
+     font-size: 1.5rem;
      font-style: normal;
      font-weight: 600;
      line-height: normal;
@@ -88,3 +88,51 @@ li a:hover{
 }
 
 /* 02 brand end */
+
+
+/* 03 Collection start */
+.collection-section h2{
+     text-align: center;
+}
+
+.collection-card{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 4rem;
+     padding: 4rem 0;
+}
+.collection-card .card{
+     border-radius: 5px;
+     background: #FFF;
+     padding: 1.5rem ;
+     box-shadow: var(--box-shadow);
+}
+.collection-card .card strong{
+     color: rgba(0, 0, 0, 0.87);
+     font-family: Inter;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 150%;
+}
+.collection-card .card .cart-star{
+     color: var(--orange);
+     font-size: 1.3rem;
+     /* letter-spacing: .1rem; */
+     padding: 1rem 0;
+}
+.collection-card .card .cart-star span{
+     color: var(--primary);
+}
+.collection-card .card small{
+     display: block;
+     color:  var(--para-fast);
+     font-family: Inter;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 160%; /* 20.02px */
+     letter-spacing: 0.252px;
+}
+/* 03 Collection end */
+
