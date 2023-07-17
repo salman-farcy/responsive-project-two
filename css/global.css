@@ -12,9 +12,8 @@ body{
      background: var(--bg-primary);
      
 }
-header{
-     width: 100vw;
-     height: 100vh;
+section{
+     padding: 6.5rem 0;
 }
 a{
      text-decoration: none;

@@ -74,7 +74,17 @@ li a:hover{
 .banner-img img{
      width: 95%;
 }
-/* 00 banner ens */
-
-
+/* 00 banner end */
 /* 01 heading section end  */
+
+
+/* 02 brand start */
+.brand-logo{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+/* 02 brand end */
