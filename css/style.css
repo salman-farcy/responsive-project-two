@@ -180,3 +180,61 @@ li a:hover{
      margin: 1rem 0;
 }
 /* 04 Featured end */
+
+/* 05 footer section start */
+footer{
+     background-color: var(--secendary);
+     padding: 5rem 0;
+}
+.footer-section{
+     text-align: center;
+}
+.footer-titel h2{
+     color: #FFF;
+     font-family: Poppins;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+.footer-titel p{
+     color: var(--bg-primary);
+     font-family: Manrope;
+     font-size: 1.2rem;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 2rem; /* 171.429% */
+     padding: 1rem 0;
+}
+.footer-titel small{
+     color: var(--bg-primary);
+     font-family: Manrope;
+     font-size: 1.2rem;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 2rem; /* 171.429% */
+}
+.footer-icon{
+     display:flex;
+     align-items: center;
+     justify-content: center;
+     gap: 3rem;
+     padding: 3rem 0;
+}
+.footer-icon .icons{
+     color: var(--bg-primary);
+     font-size: 2.5rem;
+     background-color: var(--primary);
+     padding: 1rem;
+     border-radius: 50%;
+     display:flex;
+     width:4.5rem ;
+     height:4.5rem;
+     align-items: center;
+     justify-content: center;
+     transition: .3s ease;
+}
+.footer-icon .icons:hover{
+     background-color: var(--bg-btn);
+}
+/* 05 footer section end */
