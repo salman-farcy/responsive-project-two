@@ -19,6 +19,15 @@
           grid-template-columns: repeat(2, 1fr);
           gap: 5rem;
      }
+     /* Featured start */
+     .featured-section{
+          gap: 3.5rem;
+     }
+     .featured-section .featured-img,
+     .featured-section .featured-content{
+          width: 50%;
+     }
+     
 }
 
 
@@ -90,6 +99,17 @@
           grid-template-columns: repeat(2, 1fr);
           gap: 2.5rem;
      }
+     /* Featured start */
+     .featured-section{
+          flex-direction: column;
+     }
+     .featured-section .featured-img{
+          width: 100%;
+     }
+     .featured-section .featured-content{
+          width: 100%;
+     }
+
 }
 
 @media screen and (max-width: 576px){

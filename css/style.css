@@ -134,5 +134,49 @@ li a:hover{
      line-height: 160%; /* 20.02px */
      letter-spacing: 0.252px;
 }
+.see-more{
+     font-size: 2rem;
+     color: var(--bg-btn);
+     font-weight: 600;
+     display: block;
+     text-align: right;
+     /* margin: 0 right; */
+}
 /* 03 Collection end */
 
+/* 04 Featured start */
+.featured-section{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 7rem;
+}
+.featured-section .featured-img{
+     width: 40%;
+}
+.featured-section .featured-content{
+     width: 60%;
+}
+.featured-content h2{
+     color: var(--secendary);
+     font-family: Poppins;
+     font-size: 3rem;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 4rem; /* 157.895% */
+}
+.featured-content p{
+     color: #6C6C6C;
+     font-family: Poppins;
+     font-size: 1.3rem;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 2rem; /* 175% */
+     width: 70%;
+}
+.featured-content a{
+     border-radius: 0;
+     padding: .7rem 1.8rem;
+     margin: 1rem 0;
+}
+/* 04 Featured end */

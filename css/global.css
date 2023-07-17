@@ -60,7 +60,7 @@ img{
      font-style: normal;
      font-weight: 700;
      line-height: normal;
-     padding: .7rem 1rem;
+     padding: .7rem 1.3rem;
      transition: all .3s ease-in-out;
 }
 .primary-btn:hover{
