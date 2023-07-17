@@ -75,6 +75,9 @@
      html{
           font-size: 50%;
      }
+     nav .menu{
+          display: block;
+     }
      .container{
           width: 85vw;
           margin: 0 auto;
